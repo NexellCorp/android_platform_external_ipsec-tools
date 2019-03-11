@@ -75,7 +75,7 @@ LOCAL_CFLAGS += -Wno-unused-variable \
 
 LOCAL_MODULE := racoon
 
-LOCAL_INIT_RC := racoon.rc
+# LOCAL_INIT_RC := racoon.rc
 
 include $(BUILD_EXECUTABLE)
 
